@@ -20,12 +20,7 @@
         <input type="email" name="mail" id="mail"><br>
 
         <label for="telefon"> Telefon: </label><br>
-        <input type="tel" name="telefon" id="telefon"><br><br>
-
-        <!-- wybór plci -->
-        <label for="gender"> Wybierze płeć: </label><br>
-        <input type="radio" name="gender" value="female" id="female"/><label for="female"> Kobieta </label><br>
-        <input type="radio" name="gender" value="male" id="male"/><label for="male"> Mężczyzna </label><br><br>
+        <input type="tel" name="telefon" id="telefon"><br>
 
         <!-- wybieranie miasta -->
         <lebel for="miasto"> Wybierz miasto: </lebel><br>
@@ -34,12 +29,15 @@
           <option value="Kraków"> Kraków </option>
           <option value="Gdańsk"> Gdańsk </option> 
     </select>
-        <br><br>
-        
-        <input type="checkbox" name="zgoda" id="zgoda" checked /><label for="zgoda"> Zgoda na dane osobowe </label> <br><br>
+        <br>
+        <!-- wybór plci -->
+        <label for="gender"> Wybierze płeć: </label><br>
+        <input type="radio" name="gender" value="female" id="female" /><label for="female"> Kobieta </label><br>
+        <input type="radio" name="gender" value="male" id="male" /><label for="male"> Mężczyzna </label><br><br>
 
         <label for="wiadomosc"> Wiadomość </label><br>
-        <textarea rows="2" cols="40" id="wiadomosc"></textarea><br><br>
+        <textarea rows="10" cols="40" id="wiadomosc"></textarea><br>
+        <input type="checkbox" name="zgoda" id="zgoda" checked /><label for="zgoda"> Wyrażam zgodę na przetwarzanie danych osobowych </label> <br>
         <input type="submit" value="Send" />
 
     </form>
