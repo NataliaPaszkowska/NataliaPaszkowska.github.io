@@ -21,16 +21,19 @@
         <label for="telefon"> Telefon: </label><br>
         <input type="text" name="telefon" id="telefon"><br><br>
 
-        <input type="radio" name="gender" value="female" /> Kobieta <br>
-        <input type="radio" name="gender" value="male" /> Mężczyzna <br><br>
+        <!-- wybór plci -->
+        <input type="radio" name="gender" value="female" id="female"/><label for="female"> Kobieta </label><br>
+        <input type="radio" name="gender" value="male" id="male"/><label for="male"> Mężczyzna </label><br><br>
 
+        <!-- wybieranie miasta -->
         <select name="miasto">
           <option value="Warszawa"> Warszawa </option>
           <option value="Kraków"> Kraków </option>
           <option value="Gdańsk"> Gdańsk </option> 
     </select>
         <br><br>
-        <input type="checkbox" name="zgoda" checked /> Zgoda na dane osobowe <br><br>
+        
+        <input type="checkbox" name="zgoda" id="zgoda" checked /><label for="zgoda"> Zgoda na dane osobowe </label> <br><br>
 
         <label for="wiadomosc"> Wiadomość </label><br>
         <textarea rows="4" cols="25" id="wiadomosc"></textarea><br><br>
